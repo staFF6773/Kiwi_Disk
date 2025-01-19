@@ -11,7 +11,7 @@ class DiscoInfo:
     def __init__(self):
         # Configuración de la ventana principal
         self.ventana = tk.Tk()
-        self.ventana.title("Monitor de Disco")
+        self.ventana.title("Kiwi Diks")
         self.ventana.configure(bg='#2C3E50')
         self.ventana.geometry("1200x900")
         
@@ -32,7 +32,7 @@ class DiscoInfo:
         self.frame_titulo = ttk.Frame(self.frame_principal)
         self.frame_titulo.pack(fill='x', pady=(0, 30))
         
-        titulo = ttk.Label(self.frame_titulo, text="Monitor de Disco",
+        titulo = ttk.Label(self.frame_titulo, text="Kiwi Disk - Monitor de Disco",
                           font=('Arial', 32, 'bold'), foreground='#ECF0F1')
         titulo.pack()
         
